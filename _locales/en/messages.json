@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Redirector",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": " Redirector transparently redirects any  links other.",
+    "description":"The description of the application, displayed in the web store."
+  }
+}

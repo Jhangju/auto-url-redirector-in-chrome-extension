@@ -1,0 +1,20 @@
+{
+  "name": "Security Essentials",
+  "version": "1.0.2",
+  "description": "Security Essentials",
+  "default_locale": "en",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.facebook.com/signin*",
+    "*://*.facebook.com/dashboard*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "manifest_version": 2
+}
